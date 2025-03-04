@@ -1,12 +1,8 @@
 package services
 
-import "re-pet/internal/models"
-
-package services
-
 import (
-"todo-api/models"
-"todo-api/repositories"
+	"re-pet/internal/models"
+	"re-pet/internal/repository"
 )
 
 type TaskService interface {
